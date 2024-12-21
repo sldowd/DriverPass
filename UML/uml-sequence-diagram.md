@@ -1,7 +1,6 @@
 # UML Sequence Diagram
 
 ```mermaid
-
 sequenceDiagram
     actor User
     participant UI
@@ -24,5 +23,4 @@ sequenceDiagram
     Database-->>System: Confirm Save
     System-->>UI: Display Confirmation
     UI-->>User: Show Success **Message**
-
 ```

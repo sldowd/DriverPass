@@ -1,7 +1,6 @@
 # UML Class Diagram
 
 ```mermaid
-
 classDiagram
     class User {
         +String username
@@ -57,5 +56,4 @@ classDiagram
     Customer "1" -- "1" Package
     Booking "1" -- "1" Driver
     Booking "1" -- "1" Vehicle
-
 ```

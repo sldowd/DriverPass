@@ -1,8 +1,7 @@
 # UML Use Case Diagram
 
 ```mermaid
-
-graph TB
+graph LR
     User((User))
     Admin((Admin))
     Secretary((Secretary))
@@ -48,5 +47,4 @@ graph TB
     Driver --> Login
     Driver --> ViewProgress
     Driver --> ManageDrivers
-
-    ```
+```

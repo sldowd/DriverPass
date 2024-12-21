@@ -1,7 +1,6 @@
 # Book Driving Lesson Activity Diagram
 
 ```mermaid
-
 stateDiagram-v2
     [*] --> Login
     Login --> SelectPackage
@@ -14,5 +13,4 @@ stateDiagram-v2
     ProcessPayment --> Failed: Payment Error
     Failed --> ViewAvailableSlots
     Success --> [*]
-
 ```

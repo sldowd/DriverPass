@@ -1,7 +1,6 @@
 # Take Practice Test Activity Diagram
 
 ```mermaid
-
 stateDiagram-v2
     [*] --> Login
     Login --> SelectTest
@@ -13,5 +12,4 @@ stateDiagram-v2
     CalculateScore --> DisplayResults
     DisplayResults --> ViewProgress
     ViewProgress --> [*]
-
 ```
